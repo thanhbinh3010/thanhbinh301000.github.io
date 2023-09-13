@@ -3,8 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+html,body{
     font-family:'Roboto',sans-serif;
+    position: relative;
+    height: 100%;
+
 }
 
 :root {
@@ -27,6 +30,28 @@ body{
     }
     to{
         transform: translateY(0);
+        
+    }
+}
+@keyframes botToTopCard{
+    from {
+        transform: translateY(0);
+        
+
+    }
+    to{
+        transform: translateY(-10px);
+        
+    }
+}
+@keyframes TopToBot{
+    from {
+        transform: translateY(0);
+        
+
+    }
+    to{
+        transform: translateY(50px);
         
     }
 }
@@ -57,6 +82,13 @@ body{
             flex-direction: row;
            }
 }
+@media only screen and (max-width:1023px) {
+    .learning-style-img {
+    width: 332px;
+    height: auto;
+    object-fit: cover;
+    }
+}
 @media only screen and (max-width:576px) {
    .wrapper__columns{
     flex-direction: column-reverse;
@@ -74,7 +106,7 @@ body{
    }
    .block-description{
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
    }
    .wrapper__columns-left{
     padding: 0 20px;
@@ -109,6 +141,19 @@ body{
     }
     .block-info-card__image {
         justify-content: end;
+    }
+    h3.block-heading{
+        font-size: 18px;  
+      }
+      .learning-style-wrapper {
+        max-width: 100%;
+    }
+    .block-column-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .course-card__description{
+        font-weight: 400;
     }
 }
 
