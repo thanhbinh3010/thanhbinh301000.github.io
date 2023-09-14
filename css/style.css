@@ -532,22 +532,22 @@ swiper-slide img {
     padding: 20px 96px;
 }
 .grid-item:first-child {
-    background-image: url('/img/team/team-andrija-1.jpg');
+    background-image: url('img/team/team-andrija-1.jpg');
  
   }
   .grid-item:nth-child(2) {
-    background-image: url('/img/team/team-antonio-2.jpg');
+    background-image: url('img/team/team-antonio-2.jpg');
  
   }
   .grid-item:nth-child(3) {
-    background-image: url('/img/team/team-dominik-1.jpg');
+    background-image: url('img/team/team-dominik-1.jpg');
 
   }
   .grid-item:nth-child(4) {
-    background-image: url('/img/team/team-izabela-1.jpg');
+    background-image: url('img/team/team-izabela-1.jpg');
   }
   .grid-item:last-child {
-    background-image: url('/img/team/team-jure-1.jpg');
+    background-image: url('img/team/team-jure-1.jpg');
    
   }
   .read-button{
