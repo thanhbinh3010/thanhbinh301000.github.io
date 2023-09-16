@@ -531,25 +531,7 @@ swiper-slide img {
 .team-content__right{
     padding: 20px 96px;
 }
-/* .grid-item:first-child {
-    background-image: url('img/team/team-andrija-1.jpg');
- 
-  }
-  .grid-item:nth-child(2) {
-    background-image: url('img/team/team-antonio-2.jpg');
- 
-  }
-  .grid-item:nth-child(3) {
-    background-image: url('img/team/team-dominik-1.jpg');
 
-  }
-  .grid-item:nth-child(4) {
-    background-image: url('img/team/team-izabela-1.jpg');
-  }
-  .grid-item:last-child {
-    background-image: url('img/team/team-jure-1.jpg');
-   
-  } */
   .read-button{
     text-decoration: none;
     padding: 16px 32px;
@@ -571,5 +553,63 @@ swiper-slide img {
     margin-top: 12px;
 }
 
-  
-  
+.drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(548.95% 200.06% at 145.33% 0px, rgb(32, 33, 41) 0px, rgb(32, 33, 41) 33.2%, rgb(113, 25, 35) 100%);
+    z-index: 999;
+    display: none;  
+   
+}
+.drawer.open {
+    animation: leftToRight 0.3s ease-in-out;
+}
+.drawer.close {
+    animation: leftToRightClose 0.3s ease-in-out;
+}
+.nav-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(548.95% 200.06% at 145.33% 0px, rgb(32, 33, 41) 0px, rgb(32, 33, 41) 33.2%, rgb(113, 25, 35) 100%);
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+
+.nav-mobile__item {
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    line-height:  36px;
+    font-weight: 700;
+}
+body.content-hidden {
+    overflow: hidden;
+}
+.drawer-wrap{
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.hamburger-icon{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    z-index: 5;
+}
+.drawer-logo {
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 5;
+}
