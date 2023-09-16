@@ -531,7 +531,7 @@ swiper-slide img {
 .team-content__right{
     padding: 20px 96px;
 }
-.grid-item:first-child {
+/* .grid-item:first-child {
     background-image: url('img/team/team-andrija-1.jpg');
  
   }
@@ -549,7 +549,7 @@ swiper-slide img {
   .grid-item:last-child {
     background-image: url('img/team/team-jure-1.jpg');
    
-  }
+  } */
   .read-button{
     text-decoration: none;
     padding: 16px 32px;
