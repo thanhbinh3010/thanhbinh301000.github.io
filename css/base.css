@@ -33,6 +33,25 @@ html,body{
         
     }
 }
+@keyframes leftToRight{
+    from {
+        transform: translateX(-100%);
+        
+
+    }
+    to{
+        transform: translateX(0);
+        
+    }
+}
+@keyframes leftToRightClose {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 @keyframes botToTopCard{
     from {
         transform: translateY(0);
